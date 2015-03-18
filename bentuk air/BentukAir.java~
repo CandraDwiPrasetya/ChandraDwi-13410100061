@@ -1,0 +1,16 @@
+import java.util.*;
+public class BentukAir{
+  public Static void mai(String[]argc){
+    scanner sc= new scanner (System.in);
+    System.out.println("Masukan Temperatur Air : (Celicius)");
+    int temp=sc.nextInt();
+    if (temp<0);{
+    System.out.println("Zat Padat");
+    }
+    else if ((temp=0)&&(temp=<100){
+    System.out.println("Zat Cair")
+    }else{
+    Sytem.out.println("Zat Gas")
+    }
+  }
+}

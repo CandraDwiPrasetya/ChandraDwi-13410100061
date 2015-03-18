@@ -1,0 +1,55 @@
+import java.util*;
+public class Tebakgambar{
+  public static void main(String[]args){
+  Scaner sc=new Scaner (System.in);
+  System.out.print("masukkan tebakan gambar(1/0):");
+  
+  int tabakanuser;
+  int tebakankomputer;
+  int angkatebakan;
+  String user;
+  Strng komputer;
+  String angkatebakan;
+  tebakanuser=sc.nextInt();
+    if (tebakanuser==1 || tabakanuser==0) {
+    if (tabakanuser=1){
+     tebakankompuer=0;
+     
+    }else {
+    tebakankomputer=1;
+       }
+    }
+    angkatebakan=(INT)(Math.random()+0.5);
+    
+    if (tebakanuser=1) {
+     user= "gambar";
+     komputer= "angka";
+    } else{
+     komputer="gambar";
+     user="angka"
+    }
+    
+    if (ankatebakan=1){
+    angkatebakan=="gambar";
+    
+    }else{
+    angkatebakan=="angka";
+    }
+    
+    System.out.println("tebakan anda: "+user);
+    System.out.println("tebakan komputer: "+komputer);
+    System.out,println("koin ynag harus ditebak: "+angkatebakan);
+    
+    if (user==tebakanangka){
+      System.out.println("selamat, anda menang");
+    }else {
+      System.out.println ("maaf anda gagal");
+    }else {
+      System.out.println ("silahkan masukkan angka 1 dan 0")
+    }
+    
+    
+    
+      
+  }
+}
